@@ -45,11 +45,6 @@ flask run
 ## Usage
 After the aplication is ready we need to load the dataset
 
-### Initialization
-```bash
-curl -X POST "http://localhost:5000/api/v1/preload_data/"
-```
-
 ### API Enpoints
 Return the dataset of indicators
 - GET http://localhost:5000/api/v1/satisfaction/
