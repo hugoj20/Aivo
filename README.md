@@ -7,23 +7,21 @@ Get the code with git
 ```bash
 git clone https://github.com/hugoj20/Aivo.git
 cd Aivo
+cp .env.template.txt .env
 ```
 ## Choose a method
 ### With Docker Compose
-Go to the root folder of the project
-```bash
-cd Project
-```
+
 run the following commands
 
 ```bash
-docker compose build
+docker-compose build
 ```
 
 After the image is created, run the aplication.
 
 ```bash
-docker compose up
+docker-compose up
 ```
 
 ### With venv
@@ -36,7 +34,6 @@ source .env/bin/activate
 Install the required dependecies
 
 ```bash
-cd Project
 pip install -r requirements.txt
 ```
 
